@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="Foodsby">
+  <head>
+    <meta charset="utf-8">
+    <title>Foodsby Challenge</title>
+    <link rel="stylesheet" href="stylesheets/index.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.0/angular.min.js"></script>
+    <script rel="stylesheet" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+    <script src="client/client.js"></script>
+    <script src="client/menuservice.js"></script>
+    <!-- <script src="client/menucontroller.js"></script> -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/" />
+
+  </head>
+  <body>
+
+    <div class="jumbotron">
+        <h1>Delivery Schedule</h1>
+
+    </div>
+
+    <nav class="navbar">
+        <div class="container" ng-controller="MenuController as mc">
+            <ul class="nav navbar-nav">
+              <li>
+                  <button href="#/monday" ng-click="mc.mondayMenu()" >Monday</button>
+              </li>
+                <li>
+                    <button href="#/tuesday" ng-click="mc.tuesdayMenu()" >Tuesday</button>
+
+                </li>
+                <li>
+                    <button href="#/wednesday" ng-click="mc.wednesdayMenu()">Wednesday</button>
+
+                </li>
+                <li>
+                    <button href="#/thursday" ng-click="mc.thursdayMenu()">Thursday</button>
+                </li>
+                <li>
+                    <button href="#/friday" ng-click="mc.fridayMenu()">Friday</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div ng-view>
+
+    </div>
+
+
+</body>
+</html>

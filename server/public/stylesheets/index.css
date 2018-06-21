@@ -1,0 +1,59 @@
+html {
+  font-family: 'Merriweather', serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+h1{
+
+}
+h2 {
+
+}
+form {
+
+}
+p {
+  font-family: 'Merriweather', serif;
+  display: inline-block;
+}
+label {
+  font-family: 'Merriweather', serif;
+}
+body{
+  color: black;
+  text-align:left;
+}
+a {
+
+}
+
+
+.well {
+  width: 25%;
+  display: inline-block;
+}
+.jumbotron {
+  font-family: 'Merriweather', serif;
+  color: black;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.button {
+font-family: 'Merriweather', serif;
+}
+ul.nav.navbar-nav {
+  margin: 0 auto;
+}
+.navbar{
+  display: flex;
+  align-content: center;
+  width: 100%;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  }
+}
+.navbar a {
+  text-align: left;
+  display: inline;
+}
